@@ -1,0 +1,40 @@
+Ollama package installation steps
+
+1. Install package 
+	```
+	pip show ollama
+	```
+
+2. Locate the Executable: Find where the `ollama` executable is located. This is usually in the `Scripts` directory of your Python environment.
+
+For example, if you are using a virtual environment located at `C:\Users\Admin\ver_env`, the executable might be in:
+```
+C:\Users\Admin\ver_env\Scripts
+```
+
+3. Add Executable to PATH: Add the directory containing the `ollama` executable to your system's PATH.
+
+On Windows:
+1. Open System Properties:
+    - Right-click on `This PC` or `Computer` on the desktop or in File Explorer.
+    - Click on `Properties`.
+    - Click on `Advanced system settings`.
+    - Click on the `Environment Variables` button.
+
+2. Edit the PATH Variable:
+    - In the `System variables` section, find the `Path` variable and select it.
+    - Click on `Edit`.
+    - Click on `New` and add the path to the `Scripts` directory of your virtual environment. For example:
+    ```
+    C:\Users\Admin\ver_env\Scripts
+    ```
+    - Click `OK` to save the changes.
+
+3. Restart Command Line:
+    - Close and reopen your command line or terminal to apply the changes.
+
+4. Verify the Command: After updating the PATH, verify that the `ollama` command is now recognized.
+
+```
+ollama pull llama3.1:latest
+```
