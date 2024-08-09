@@ -25,7 +25,8 @@ This project is an AI-powered proposal generator built using Python. It leverage
    pip install -r requirements.txt
    ```
 
-3. Set up your environment variables (if needed) for API keys.
+3. Setup Ollama Package[ follow: OllamaPackageInstallationSteps.txt]
+4. Set up your environment variables (if needed) for API keys.
    
    
 ## Usage
@@ -51,6 +52,7 @@ This project is an AI-powered proposal generator built using Python. It leverage
 - `fitz`
 - `openpyxl`
 - `logging`
+- `duckduckgo-search`
 
 ## Contributing
 
