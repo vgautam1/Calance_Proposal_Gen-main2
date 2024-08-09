@@ -31,16 +31,17 @@ This project is an AI-powered proposal generator built using Python. It leverage
    
 ## Usage
 
-1. Run the Streamlit app:
+1. Cd .\Calance_Proposal_Gen-main2\calanceproposeagnt
+2. Run the Streamlit app:
    ```sh
-   streamlit run calancepropseAgnt2.py
+   streamlit run main.py
    ```
 
-2. Open your browser and navigate to the URL provided by Streamlit.
+3. Open your browser and navigate to the URL provided by Streamlit.
 
-3. Follow the on-screen instructions to input client details, project requirements, and upload relevant documents.
+4. Follow the on-screen instructions to input client details, project requirements, and upload relevant documents.
 
-4. Generate, review, and download the proposal.
+5. Generate, review, and download the proposal.
 
 ## Dependencies
 
