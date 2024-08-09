@@ -16,8 +16,8 @@ This project is an AI-powered proposal generator built using Python. It leverage
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/ai-proposal-generator.git
-   cd ai-proposal-generator
+   git clone https://github.com/yourusername/Calance_Proposal_Gen-main2.git
+   cd Calance_Proposal_Gen-main2
    ```
 
 2. Install the required dependencies:
